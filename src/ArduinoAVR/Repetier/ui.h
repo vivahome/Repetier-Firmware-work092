@@ -21,7 +21,7 @@
 
 #include "gcode.h"
 
-#define NO_DISPLAY  0
+#define NO_DISPLAY  1    // org 0  ve 18022015
 #define DISPLAY_4BIT 1
 #define DISPLAY_8BIT 2
 #define DISPLAY_I2C   3

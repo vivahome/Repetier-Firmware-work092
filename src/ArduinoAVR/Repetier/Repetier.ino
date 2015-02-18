@@ -137,6 +137,7 @@ Custom M Codes
 - M908 P<address> S<value> : Set stepper current for digipot (RAMBO board)
 */
 
+#include <U8glib.h>
 #include "Repetier.h"
 #include <SPI.h>
 
