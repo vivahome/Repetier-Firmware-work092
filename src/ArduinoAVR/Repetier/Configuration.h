@@ -84,7 +84,7 @@ setpe per mm and heater manager settings in extruder 0 are used! */
 // Unique One rev. A          = 88
 // User layout defined in userpins.h = 999
 
-#define MOTHERBOARD 33
+#define MOTHERBOARD 703
 
 #include "pins.h"
 
@@ -123,7 +123,7 @@ is a full cartesian system where x, y and z moves are handled by separate motors
 Cases 1, 2, 8 and 9 cover all needed xy and xz H gantry systems. If you get results mirrored etc. you can swap motor connections for x and y.
 If a motor turns in the wrong direction change INVERT_X_DIR or INVERT_Y_DIR.
 */
-#define DRIVE_SYSTEM 3
+#define DRIVE_SYSTEM 0
 
 // ##########################################################################################
 // ##                               Calibration                                            ##
@@ -1085,8 +1085,8 @@ to activate the quadratic term. Only adds lots of computations and storage usage
  Overridden if EEPROM activated.
 */
 //#define BAUDRATE 76800
-#define BAUDRATE 115200
-//#define BAUDRATE 250000
+//#define BAUDRATE 115200
+#define BAUDRATE 250000
 
 /**
 Some boards like Gen7 have a power on pin, to enable the atx power supply. If this is defined,
@@ -1357,8 +1357,8 @@ The following settings override uiconfig.h!
 18 or CONTROLLER_GATE_3NOVATICA Gate Controller from 3Novatica
 */
 
-#define FEATURE_CONTROLLER NO_CONTROLLER
-
+//#define FEATURE_CONTROLLER NO_CONTROLLER
+#define FEATURE_CONTROLLER 1
 /**
 Select the language to use.
 0 = English
@@ -1461,6 +1461,6 @@ Values must be in range 1..255
 #define USER_KEY4_PIN     -1
 #define USER_KEY4_ACTION  UI_ACTION_DUMMY
 */
-
+//#include "Configuration-VH2.h"
 #endif
 

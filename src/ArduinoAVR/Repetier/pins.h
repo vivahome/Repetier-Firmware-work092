@@ -1824,10 +1824,15 @@ STEPPER_CURRENT_CONTROL
 #define ORIG_PS_ON_PIN 12
 //#define KILL_PIN -1
 
-#define HEATER_0_PIN 9 // EXTRUDER 1
-#define HEATER_2_PIN 8 // EXTRUDER 2
-#define HEATER_3_PIN 2 // EXTRUDER 3
-#define HEATER_1_PIN 10 // heater bed
+//#define HEATER_0_PIN 9 // EXTRUDER 1
+//#define HEATER_2_PIN 8 // EXTRUDER 2
+//#define HEATER_3_PIN 2 // EXTRUDER 3
+//#define HEATER_1_PIN 10 // heater bed
+
+#define HEATER_0_PIN 15 // EXTRUDER 1
+#define HEATER_2_PIN 14 // EXTRUDER 2
+#define HEATER_3_PIN 13 // EXTRUDER 3
+#define HEATER_1_PIN 12 // heater bed
 
 /*
 Temperature sensors
@@ -1855,13 +1860,14 @@ S3(ext)=9
 #define BEEPER_PIN 61	 // Beeper on AUX-4
 #define SDSUPPORT true // sd card reader on board
 
-// #define UI_DISPLAY_RS_PIN 32
-// #define UI_DISPLAY_ENABLE_PIN 31
-// #define UI_DISPLAY_D4_PIN 14
-// #define UI_DISPLAY_D5_PIN 30
-// #define UI_DISPLAY_D6_PIN 39
-// #define UI_DISPLAY_D7_PIN 15
-
+// uncommented  ve
+ //#define UI_DISPLAY_RS_PIN 32
+ //#define UI_DISPLAY_ENABLE_PIN 31
+ //#define UI_DISPLAY_D4_PIN 14
+ //#define UI_DISPLAY_D5_PIN 30
+ //#define UI_DISPLAY_D6_PIN 39
+ //#define UI_DISPLAY_D7_PIN 15
+// uncommented  ve
 
 //buttons are directly attached using AUX-2
 ////encoder A 59

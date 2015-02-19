@@ -21,7 +21,7 @@
 
 #include "gcode.h"
 
-#define NO_DISPLAY  0
+#define NO_DISPLAY  4    // org 0  ve 18022015
 #define DISPLAY_4BIT 1
 #define DISPLAY_8BIT 2
 #define DISPLAY_I2C   3
@@ -247,7 +247,7 @@ typedef struct UIMenu_struct {
 } const UIMenu;
 extern const int8_t encoder_table[16] PROGMEM ;
 
-//#ifdef COMPILE_I2C_DRIVER
+#ifdef COMPILE_I2C_DRIVER
 
 /*************************************************************************
 * Title:    C include file for the I2C master interface
