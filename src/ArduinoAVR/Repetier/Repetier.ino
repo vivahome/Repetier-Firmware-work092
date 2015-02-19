@@ -137,6 +137,7 @@ Custom M Codes
 - M908 P<address> S<value> : Set stepper current for digipot (RAMBO board)
 */
 
+<<<<<<< HEAD
 #include <LiquidCrystal_SR3W.h>
 #include <LiquidCrystal_SR2W.h>
 #include <LiquidCrystal_SR.h>
@@ -145,6 +146,8 @@ Custom M Codes
 #include <LCD.h>
 #include <I2CIO.h>
 #include <FastIO.h>
+=======
+>>>>>>> origin/master
 #include <U8glib.h>
 #include "Repetier.h"
 #include <SPI.h>

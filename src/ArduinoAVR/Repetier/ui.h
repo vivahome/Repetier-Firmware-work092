@@ -21,7 +21,11 @@
 
 #include "gcode.h"
 
+<<<<<<< HEAD
 #define NO_DISPLAY  4    // org 0  ve 18022015
+=======
+#define NO_DISPLAY  1    // org 0  ve 18022015
+>>>>>>> origin/master
 #define DISPLAY_4BIT 1
 #define DISPLAY_8BIT 2
 #define DISPLAY_I2C   3

@@ -1861,12 +1861,21 @@ S3(ext)=9
 #define SDSUPPORT true // sd card reader on board
 
 // uncommented  ve
+<<<<<<< HEAD
  //#define UI_DISPLAY_RS_PIN 32
  //#define UI_DISPLAY_ENABLE_PIN 31
  //#define UI_DISPLAY_D4_PIN 14
  //#define UI_DISPLAY_D5_PIN 30
  //#define UI_DISPLAY_D6_PIN 39
  //#define UI_DISPLAY_D7_PIN 15
+=======
+ #define UI_DISPLAY_RS_PIN 32
+ #define UI_DISPLAY_ENABLE_PIN 31
+ #define UI_DISPLAY_D4_PIN 14
+ #define UI_DISPLAY_D5_PIN 30
+ #define UI_DISPLAY_D6_PIN 39
+ #define UI_DISPLAY_D7_PIN 15
+>>>>>>> origin/master
 // uncommented  ve
 
 //buttons are directly attached using AUX-2

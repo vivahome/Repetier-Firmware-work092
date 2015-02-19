@@ -355,7 +355,11 @@ WARNING: Servos can draw a considerable amount of current. Make sure your system
 #define FEATURE_MEMORY_POSITION 1
 #define FEATURE_CHECKSUM_FORCED 0
 #define FEATURE_FAN_CONTROL 1
+<<<<<<< HEAD
 #define FEATURE_CONTROLLER 6
+=======
+#define FEATURE_CONTROLLER 11
+>>>>>>> origin/master
 #define UI_LANGUAGE 1
 #define UI_PRINTER_NAME "RepRap"
 #define UI_PRINTER_COMPANY "Home made"
