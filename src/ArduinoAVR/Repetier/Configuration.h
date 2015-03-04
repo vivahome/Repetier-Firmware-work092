@@ -84,7 +84,7 @@ setpe per mm and heater manager settings in extruder 0 are used! */
 // Unique One rev. A          = 88
 // User layout defined in userpins.h = 999
 
-#define MOTHERBOARD 703
+#define MOTHERBOARD 315
 
 #include "pins.h"
 

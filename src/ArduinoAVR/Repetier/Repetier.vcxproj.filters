@@ -27,6 +27,9 @@
     <ClInclude Include="Communication.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Configuration-VH2.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
     <ClInclude Include="Configuration.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
@@ -85,9 +88,6 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="uimenu.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="Configuration-VH2.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
